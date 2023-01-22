@@ -19,8 +19,33 @@ const Navbar = () => {
       <li>
         <Link to="/appointment">Appointment</Link>
       </li>
-      <li>
-        <Link to="/about">About</Link>
+      <li tabIndex={0}>
+        <a className="justify-between">
+          About
+          <svg
+            className="fill-current"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+          </svg>
+        </a>
+        <ul className="p-2 bg-gray-50 z-40  ">
+          <li className="hover:bg-white ">
+            <Link to="/about-us">About Us</Link>
+          </li>
+          <li>
+            <Link to="/our-faqs">Our FAQs</Link>
+          </li>
+          <li>
+            <Link>Dentists</Link>
+          </li>
+          <li>
+            <Link>Gallery</Link>
+          </li>
+        </ul>
       </li>
       {user?.uid ? (
         <>

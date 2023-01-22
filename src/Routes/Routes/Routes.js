@@ -1,13 +1,16 @@
 import { createBrowserRouter } from "react-router-dom";
 import DashboardLayout from "../../Layout/DashboardLayout";
 import Main from "../../Layout/Main";
+
+import AboutUs from "../../Pages/About/AboutUs/AboutUs";
 import Appointment from "../../Pages/Appointment/Appointment/Appointment";
 import AddDoctor from "../../Pages/Dashboard/AddDoctor/AddDoctor";
 import AllUsers from "../../Pages/Dashboard/AllUsers/AllUsers";
-import Dashboard from "../../Pages/Dashboard/Dashboard/Dashboard";
+
 import ManageDoctors from "../../Pages/Dashboard/ManageDoctors/ManageDoctors";
 import MyAppointment from "../../Pages/Dashboard/MyAppointment/MyAppointment";
 import Payment from "../../Pages/Dashboard/Payment/Payment";
+import OurFAQs from "../../Pages/FAQ/OurFAQs/OurFAQs";
 import Home from "../../Pages/Home/Home/Home";
 import Login from "../../Pages/Login/Login";
 import DisplayError from "../../Pages/Shared/DisplayError/DisplayError";
@@ -18,24 +21,32 @@ import PrivateRoute from "../PrivateRoute/PrivateRoute";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main></Main>,
-    errorElement: <DisplayError></DisplayError>,
+    element: <Main />,
+    errorElement: <DisplayError />,
     children: [
       {
         path: "/",
-        element: <Home></Home>,
+        element: <Home />,
+      },
+      {
+        path: "/about-us",
+        element: <AboutUs />,
+      },
+      {
+        path: "/our-faqs",
+        element: <OurFAQs />,
       },
       {
         path: "/login",
-        element: <Login></Login>,
+        element: <Login />,
       },
       {
         path: "/signup",
-        element: <SignUp></SignUp>,
+        element: <SignUp />,
       },
       {
         path: "/appointment",
-        element: <Appointment></Appointment>,
+        element: <Appointment />,
       },
     ],
   },
