@@ -47,6 +47,9 @@ const Navbar = () => {
           </li>
         </ul>
       </li>
+      <li>
+        <Link to="/contact">Contact</Link>
+      </li>
       {user?.uid ? (
         <>
           <li>

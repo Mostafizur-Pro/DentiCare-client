@@ -4,6 +4,7 @@ import Main from "../../Layout/Main";
 
 import AboutUs from "../../Pages/About/AboutUs/AboutUs";
 import Appointment from "../../Pages/Appointment/Appointment/Appointment";
+import Contact from "../../Pages/Contact/Contact/Contact";
 import AddDoctor from "../../Pages/Dashboard/AddDoctor/AddDoctor";
 import AllUsers from "../../Pages/Dashboard/AllUsers/AllUsers";
 
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/about-us",
         element: <AboutUs />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
       },
       {
         path: "/our-faqs",
