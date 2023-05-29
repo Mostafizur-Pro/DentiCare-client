@@ -6,6 +6,7 @@ import MakeAppointment from "../MakeAppointment/MakeAppointment";
 import Services from "../Services/Services";
 import Testimonial from "../Testimonial/Testimonial";
 import Welcome from "../Welcome/Welcome";
+import AlwaysAcceptingNewPatients from "../AlwaysAcceptingNewPatients/AlwaysAcceptingNewPatients";
 
 const Home = () => {
   useTitle("Home");
@@ -17,6 +18,7 @@ const Home = () => {
       <Welcome />
       <MakeAppointment />
       <Testimonial />
+      <AlwaysAcceptingNewPatients />
     </div>
   );
 };

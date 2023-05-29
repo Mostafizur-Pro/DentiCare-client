@@ -9,7 +9,9 @@ const Welcome = () => {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src={welcome} className="rounded-lg lg:w-1/2 " alt="" />
           <div>
-            <p className="text-rose-400">Changing Lives One Smile At A Time!</p>
+            <p className="text-primary font-bold">
+              Changing Lives One Smile At A Time!
+            </p>
             <h1 className="text-5xl font-bold">
               We Accept All Major Insurances
             </h1>
