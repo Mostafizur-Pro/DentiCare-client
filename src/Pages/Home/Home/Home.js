@@ -5,16 +5,18 @@ import InfoCards from "../InfoCards/InfoCards";
 import MakeAppointment from "../MakeAppointment/MakeAppointment";
 import Services from "../Services/Services";
 import Testimonial from "../Testimonial/Testimonial";
+import Welcome from "../Welcome/Welcome";
 
 const Home = () => {
   useTitle("Home");
   return (
     <div className="mx-5">
-      <Banner></Banner>
-      <InfoCards></InfoCards>
-      <Services></Services>
-      <MakeAppointment></MakeAppointment>
-      <Testimonial></Testimonial>
+      <Banner />
+      <InfoCards />
+      <Services />
+      <Welcome />
+      <MakeAppointment />
+      <Testimonial />
     </div>
   );
 };

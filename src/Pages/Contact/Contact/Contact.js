@@ -14,7 +14,7 @@ import {
 const Contact = () => {
   return (
     <div>
-      <div className="bg-rose-600 flex justify-between items-center text-white px-10">
+      <div className="bg-primary flex justify-between items-center text-white px-10">
         <h1 className="text-4xl font-bold">C o n t a c t</h1>
         <p className="flex items-center gap-2 text-xl py-10">
           {" "}
@@ -35,38 +35,38 @@ const Contact = () => {
       </div>
       <section className="flex justify-between items-center my-20 mx-10">
         <div className="items-center text-center  ">
-          <p className="text-rose-600 text-5xl justify-center flex">
+          <p className="text-primary text-5xl justify-center flex">
             <FaMapMarkerAlt />
           </p>
-          <h3 className="text-rose-600 text-2xl font-bold my-3">ADDRESS</h3>
+          <h3 className="text-primary text-2xl font-bold my-3">ADDRESS</h3>
           <p className="text-xl">Dhamrai, Dhaka, Bangladesh</p>
         </div>
         <div className="items-center text-center  ">
-          <p className="text-rose-600 text-5xl justify-center flex">
+          <p className="text-primary text-5xl justify-center flex">
             {" "}
             <FaRegClock />
           </p>
 
-          <h3 className="text-rose-600 text-2xl font-bold my-3">
+          <h3 className="text-primary text-2xl font-bold my-3">
             OPPENING HOURS
           </h3>
           <p className="text-xl">Monday-Sunday : 8:00 AM - 5:00 PM</p>
         </div>
         <div className="items-center text-center  ">
-          <p className="text-rose-600 text-5xl justify-center flex">
+          <p className="text-primary text-5xl justify-center flex">
             {" "}
             <FaPhoneAlt />
           </p>
 
-          <h3 className="text-rose-600 text-2xl font-bold my-3"> PHONE</h3>
+          <h3 className="text-primary text-2xl font-bold my-3"> PHONE</h3>
           <p className="text-xl">+880 1950 165 017 </p>
         </div>
         <div className="items-center text-center  ">
-          <p className="text-rose-600 text-5xl justify-center flex">
+          <p className="text-primary text-5xl justify-center flex">
             <FaGofore />
           </p>
 
-          <h3 className="text-rose-600 text-2xl font-bold my-3">EMAIL</h3>
+          <h3 className="text-primary text-2xl font-bold my-3">EMAIL</h3>
 
           <p className="text-xl">mostafizur0195@gmail.com</p>
         </div>
