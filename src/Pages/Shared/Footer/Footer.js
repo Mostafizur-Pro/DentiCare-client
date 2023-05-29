@@ -29,26 +29,26 @@ const Footer = () => {
           </div>
 
           <div className=" grid grid-cols-1 divide-y-2  divide-gray-600">
-            <div className="  my-3 text-xl flex gap-3 items-center hover:text-red-600">
-              <span className="text-rose-600 text-3xl">
+            <div className="  my-3 text-xl flex gap-3 items-center hover:text-primary">
+              <span className="text-primary text-3xl">
                 <FaMapMarkerAlt />
               </span>
               Dhamrai, Dhaka, Bangladesh
             </div>
-            <div className=" my-3 pt-4 text-xl flex gap-3 items-center hover:text-red-600">
-              <span className="text-rose-600 text-3xl">
+            <div className=" my-3 pt-4 text-xl flex gap-3 items-center hover:text-primary">
+              <span className="text-primary text-3xl">
                 <FaPhoneAlt />
               </span>
               +88 019 5016 5017
             </div>
-            <div className=" my-3 pt-4 text-xl flex gap-3 items-center hover:text-red-600">
-              <span className="text-rose-600 text-3xl">
+            <div className=" my-3 pt-4 text-xl flex gap-3 items-center hover:text-primary">
+              <span className="text-primary text-3xl">
                 <FaGofore />
               </span>
               mostafizur0195@gmail.com
             </div>
           </div>
-          <div className="flex text-rose-600 text-4xl gap-5 mt-10 ">
+          <div className="flex text-primary text-4xl gap-5 mt-10 ">
             <a
               className="hover:text-blue-400"
               href="https://www.facebook.com/mostafizur.proo/"
@@ -72,38 +72,38 @@ const Footer = () => {
             <h1 className="text-white text-2xl"> Services</h1>
           </div>
           <div className="">
-            <p className=" mb-3  text-xl flex gap-3 items-center hover:text-red-600">
-              <span className="text-rose-600 text-3xl">
+            <p className=" mb-3  text-xl flex gap-3 items-center hover:text-primary">
+              <span className="text-primary text-3xl">
                 <FaAngleRight />
               </span>
               Teeth Orthodontics
             </p>
-            <p className=" mb-3  text-xl flex gap-3 items-center hover:text-red-600">
-              <span className="text-rose-600 text-3xl">
+            <p className=" mb-3  text-xl flex gap-3 items-center hover:text-primary">
+              <span className="text-primary text-3xl">
                 <FaAngleRight />
               </span>
               Cosmetic Dentistry
             </p>
-            <p className=" mb-3  text-xl flex gap-3 items-center hover:text-red-600">
-              <span className="text-rose-600 text-3xl">
+            <p className=" mb-3  text-xl flex gap-3 items-center hover:text-primary">
+              <span className="text-primary text-3xl">
                 <FaAngleRight />
               </span>
               Teeth Cleaning
             </p>
-            <p className=" mb-3  text-xl flex gap-3 items-center hover:text-red-600">
-              <span className="text-rose-600 text-3xl">
+            <p className=" mb-3  text-xl flex gap-3 items-center hover:text-primary">
+              <span className="text-primary text-3xl">
                 <FaAngleRight />
               </span>
               Cavity Protection
             </p>
-            <p className=" mb-3  text-xl flex gap-3 items-center hover:text-red-600">
-              <span className="text-rose-600 text-3xl">
+            <p className=" mb-3  text-xl flex gap-3 items-center hover:text-primary">
+              <span className="text-primary text-3xl">
                 <FaAngleRight />
               </span>
               Pediatric Dental
             </p>
-            <p className=" mb-3  text-xl flex gap-3 items-center hover:text-red-600">
-              <span className="text-rose-600 text-3xl">
+            <p className=" mb-3  text-xl flex gap-3 items-center hover:text-primary">
+              <span className="text-primary text-3xl">
                 <FaAngleRight />
               </span>
               Oral Surgery
@@ -116,7 +116,7 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-1 divide-y divide-gray-600">
             <div className=" mb-3  text-xl flex gap-3 items-center">
-              <span className="text-rose-600 text-2xl">
+              <span className="text-primary text-2xl">
                 <FaClock />
               </span>
               <p className="grid grid-cols-2 gap-4 ">
@@ -124,7 +124,7 @@ const Footer = () => {
               </p>
             </div>
             <div className=" my-3 pt-4 text-xl flex gap-3 items-center">
-              <span className="text-rose-600 text-2xl">
+              <span className="text-primary text-2xl">
                 <FaClock />
               </span>
               <p className="grid grid-cols-2 gap-4 ">
@@ -132,7 +132,7 @@ const Footer = () => {
               </p>
             </div>
             <div className=" my-3 pt-4  text-xl flex gap-3 items-center">
-              <span className="text-rose-600 text-2xl">
+              <span className="text-primary text-2xl">
                 <FaClock />
               </span>
               <p className="grid grid-cols-2 gap-4 ">
@@ -140,7 +140,7 @@ const Footer = () => {
               </p>
             </div>
             <div className=" my-3 pt-4  text-xl flex gap-3 items-center">
-              <span className="text-rose-600 text-2xl">
+              <span className="text-primary text-2xl">
                 <FaClock />
               </span>
               <p className="grid grid-cols-2 gap-4 ">
@@ -148,7 +148,7 @@ const Footer = () => {
               </p>
             </div>
             <div className=" my-3 pt-4  text-xl flex gap-3 items-center">
-              <span className="text-rose-600 text-2xl">
+              <span className="text-primary text-2xl">
                 <FaClock />
               </span>
               <p className="grid grid-cols-2 gap-4 ">
@@ -156,7 +156,7 @@ const Footer = () => {
               </p>
             </div>
             <div className=" my-3 pt-4 text-xl flex gap-3 items-center">
-              <span className="text-rose-600 text-2xl">
+              <span className="text-primary text-2xl">
                 <FaClock />
               </span>
               <p className="grid grid-cols-2 gap-4 ">
@@ -164,7 +164,7 @@ const Footer = () => {
               </p>
             </div>
             <div className=" my-3 pt-4  text-xl flex gap-3 items-center">
-              <span className="text-rose-600 text-2xl">
+              <span className="text-primary text-2xl">
                 <FaClock />
               </span>
               <p className="grid grid-cols-2 gap-4 ">
