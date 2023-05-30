@@ -5,7 +5,6 @@ import {
   FaClock,
   FaFacebookSquare,
   FaGofore,
-  FaGooglePlusSquare,
   FaLinkedin,
   FaMapMarkerAlt,
   FaPhoneAlt,
@@ -14,14 +13,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer
-      // style={{
-      //   background: `url(${footer})`,
-      //   backgroundSize: "cover",
-      // }}
-      className="p-10 bg-neutral text-neutral-content"
-    >
-      {/* <footer className="footer p-10 bg-neutral text-neutral-content"></footer> */}
+    <footer className="p-10 bg-neutral text-neutral-content">
       <div className="footer">
         <section>
           <div className="footer-title   ">
@@ -29,19 +21,19 @@ const Footer = () => {
           </div>
 
           <div className=" grid grid-cols-1 divide-y-2  divide-gray-600">
-            <div className="  my-3 text-xl flex gap-3 items-center hover:text-primary">
+            <div className="  my-2 text-xl flex gap-3 items-center hover:text-primary">
               <span className="text-primary text-3xl">
                 <FaMapMarkerAlt />
               </span>
               Dhamrai, Dhaka, Bangladesh
             </div>
-            <div className=" my-3 pt-4 text-xl flex gap-3 items-center hover:text-primary">
+            <div className=" my-2 pt-2 text-xl flex gap-3 items-center hover:text-primary">
               <span className="text-primary text-3xl">
                 <FaPhoneAlt />
               </span>
               +88 019 5016 5017
             </div>
-            <div className=" my-3 pt-4 text-xl flex gap-3 items-center hover:text-primary">
+            <div className=" my-2 pt-2 text-xl flex gap-3 items-center hover:text-primary">
               <span className="text-primary text-3xl">
                 <FaGofore />
               </span>
@@ -119,62 +111,62 @@ const Footer = () => {
               <span className="text-primary text-2xl">
                 <FaClock />
               </span>
-              <p className="grid grid-cols-2 gap-4 ">
+              <p className="grid grid-cols-2 gap-2 ">
                 <span>Monday</span> <span>8:00 AM - 5:00 PM</span>
               </p>
             </div>
-            <div className=" my-3 pt-4 text-xl flex gap-3 items-center">
+            <div className=" my-2 pt-2 text-xl flex gap-3 items-center">
               <span className="text-primary text-2xl">
                 <FaClock />
               </span>
-              <p className="grid grid-cols-2 gap-4 ">
+              <p className="grid grid-cols-2 gap-2 ">
                 <span>Tuesday</span> <span>8:00 AM - 5:00 PM</span>
               </p>
             </div>
-            <div className=" my-3 pt-4  text-xl flex gap-3 items-center">
+            <div className=" my-2 pt-2  text-xl flex gap-3 items-center">
               <span className="text-primary text-2xl">
                 <FaClock />
               </span>
-              <p className="grid grid-cols-2 gap-4 ">
+              <p className="grid grid-cols-2 gap-2 ">
                 <span>Wednesday</span> <span>8:00 AM - 5:00 PM</span>
               </p>
             </div>
-            <div className=" my-3 pt-4  text-xl flex gap-3 items-center">
+            <div className=" my-2 pt-2  text-xl flex gap-3 items-center">
               <span className="text-primary text-2xl">
                 <FaClock />
               </span>
-              <p className="grid grid-cols-2 gap-4 ">
+              <p className="grid grid-cols-2 gap-2 ">
                 <span>Thursday</span> <span>8:00 AM - 5:00 PM</span>
               </p>
             </div>
-            <div className=" my-3 pt-4  text-xl flex gap-3 items-center">
+            <div className=" my-2 pt-2  text-xl flex gap-3 items-center">
               <span className="text-primary text-2xl">
                 <FaClock />
               </span>
-              <p className="grid grid-cols-2 gap-4 ">
+              <p className="grid grid-cols-2 gap-2 ">
                 <span>Friday</span> <span>8:00 AM - 5:00 PM</span>
               </p>
             </div>
-            <div className=" my-3 pt-4 text-xl flex gap-3 items-center">
+            <div className=" my-2 pt-2 text-xl flex gap-3 items-center">
               <span className="text-primary text-2xl">
                 <FaClock />
               </span>
-              <p className="grid grid-cols-2 gap-4 ">
+              <p className="grid grid-cols-2 gap-2 ">
                 <span>Saturday</span> <span>8:00 AM - 5:00 PM</span>
               </p>
             </div>
-            <div className=" my-3 pt-4  text-xl flex gap-3 items-center">
+            <div className=" my-2 pt-2  text-xl flex gap-3 items-center">
               <span className="text-primary text-2xl">
                 <FaClock />
               </span>
-              <p className="grid grid-cols-2 gap-4 ">
+              <p className="grid grid-cols-2 gap-2 ">
                 <span>Sunday</span> <span>8:00 AM - 5:00 PM</span>
               </p>
             </div>
           </div>
         </section>
       </div>
-      <div className="text-center mt-32">
+      <div className="text-center mt-10">
         <p>Copyright © 2022 - All right reserved by DentiCare </p>
       </div>
     </footer>
